@@ -1,0 +1,31 @@
+//MEGHA SNGH PUNDIR
+//Bsc(H)Physics
+//Rollno-19/BHP/022
+//PROGRAME FOR FIND THE ROOS OF QUADRATIC EQUATION i.e. ax^2+bx+c
+
+#include<iostream>
+#include<math.h>
+using namespace std;
+int main()
+{
+	float a,b,c,D,x1,x2;
+	
+	cout<<"please provide the value of a";
+	cin>>a;
+	
+	cout<<"please enter the value of b";
+	cin>>b;
+	
+	cout<<"please enter the value of c";
+	cin>>c;
+	
+	D= sqrt(b*b-4*a*c);
+	cout<<"The discrimant is"<<D<<endl;
+	
+	x1=(-b+D)/(2*a);
+	x2=(-b-D)/(2*a);
+	cout<<"The roots are "<<x1<<","<<x2;
+	
+	return 0;
+	
+}
