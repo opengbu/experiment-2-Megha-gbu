@@ -1,0 +1,35 @@
+//MEGHA SINGH PUNDIR
+//BSc(H)physics
+//Rollno-19/BHP/022
+//PROGRAME TO FIND LARGEST OF THREE NUMBERS
+
+#include<iostream>
+using namespace std;
+int main()
+{
+	float a,b,c;
+	
+	cout<<"please enter the value of a";
+	cin>>a;
+	
+	cout<<"please enter the value of b";
+	cin>>b;
+	
+	cout<<"please enter the value of c";
+	cin>>c;
+	
+	if (a>b&&a>c);
+	{cout<<"largest number is "<<a<<endl;
+	}
+	
+    if(b>a&&b>c);
+	{cout<<"largest number is "<<b<<endl;
+	}
+	
+	if(c>a&&c>b);
+	{cout<<"largest number is "<<c<<endl;
+	}
+	
+	return 0;
+	
+}
